@@ -25,5 +25,5 @@ __email__ = 'starofrainnight@gmail.com'
 __version__ = '0.0.1'
 
 
-def get_data_dir():
-    return os.path.join(os.path.dirname(__file__), 'data')
+def get_data_dir(version='3.0'):
+    return os.path.join(os.path.dirname(__file__), 'data', version)
