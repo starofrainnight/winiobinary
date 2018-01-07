@@ -13,12 +13,6 @@ requirements = [
     # TODO: put package requirements here
 ]
 
-setup_requirements = [
-    'pytest-runner',
-    # TODO(starofrainnight): put setup requirements (distutils extensions,
-    # etc.) here
-]
-
 test_requirements = [
     'pytest',
     # TODO: put package test requirements here
@@ -50,5 +44,4 @@ setup(
     ],
     test_suite='tests',
     tests_require=test_requirements,
-    setup_requires=setup_requirements,
 )
