@@ -25,8 +25,8 @@ License
 
 This package is license under two different style license with different part.
 
-The package except WinIo binary that under 'data' directory are licensed under
-Apache-2.0, but the WinIo binary use it's private license, you could reference
+The package except WinIo binaries that under 'data' directory are license under
+Apache-2.0, but the WinIo binaries use it's private license, you could reference
 to LICENSE-WINIO for more detail.
 
 We only included part of WinIo binaries, the full WinIo package with help file,
