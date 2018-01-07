@@ -31,7 +31,7 @@ setup(
     install_requires=requirements,
     license="Apache Software License",
     zip_safe=False,
-    keywords='winiobinary',
+    keywords='winiobinary,winio',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
