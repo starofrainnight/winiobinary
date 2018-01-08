@@ -9,7 +9,6 @@ with open('README.rst') as readme_file, open('HISTORY.rst') as history_file:
     long_description = (readme_file.read() + "\n\n" + history_file.read())
 
 requirements = [
-    'click>=6.0',
     # TODO: put package requirements here
 ]
 
