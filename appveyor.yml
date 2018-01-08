@@ -75,15 +75,11 @@ install:
 
   # Upgrade to the latest version of pip to avoid it displaying warnings
   # about it being out of date.
-  - "pip install --disable-pip-version-check --user --upgrade pip"
-
-  # Install the build dependencies of the project. If some dependencies contain
-  # compiled extensions and are not provided as pre-built wheel packages,
-  # pip will build them from source using the MSVC compiler matching the
-  # target Python version and architecture
-  - "pip install -r requirements_dev.txt"
-  - "pip install tox"
+  - "pip install -U pip"
   - "pip install wheel"
+
+  # Prepare test utility
+  - "pip install tox"
 
 build_script:
   # Build the compiled extension
