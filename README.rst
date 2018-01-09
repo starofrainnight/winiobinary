@@ -6,8 +6,8 @@ winio-binary
 .. image:: https://img.shields.io/pypi/v/winiobinary.svg
         :target: https://pypi.python.org/pypi/winiobinary
 
-.. image:: https://img.shields.io/travis/starofrainnight/winiobinary.svg
-        :target: https://travis-ci.org/starofrainnight/winiobinary
+.. image:: https://ci.appveyor.com/api/projects/status/80clkudkilu6uqha?svg=true
+        :target: https://ci.appveyor.com/project/starofrainnight/winiobinary
 
 .. image:: https://readthedocs.org/projects/winiobinary/badge/?version=latest
         :target: https://winiobinary.readthedocs.io/en/latest/?badge=latest
