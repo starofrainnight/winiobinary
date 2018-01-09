@@ -34,16 +34,6 @@ environment:
       PYTHON_ARCH: "64"
       TOX_ENV: "py35"
 
-    - PYTHON: "C:\\Python36"
-      PYTHON_VERSION: "3.6.x"
-      PYTHON_ARCH: "32"
-      TOX_ENV: "py36"
-
-    - PYTHON: "C:\\Python36-x64"
-      PYTHON_VERSION: "3.6.x"
-      PYTHON_ARCH: "64"
-      TOX_ENV: "py36"
-
 install:
   # If there is a newer build queued for the same PR, cancel this one.
   # The AppVeyor 'rollout builds' option is supposed to serve the same
