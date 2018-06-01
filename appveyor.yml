@@ -104,5 +104,5 @@ artifacts:
 on_success:
   - "pip install twine"
   # Only upload when python 3.6.x and arch 32 on tags
-  - ps: "if (($env:APPVEYOR_REPO_TAG -eq 'true') -and ($env:PYTHON_VERSION -eq '3.6.x') -and ($env:PYTHON_ARCH -eq '32')) { twine upload dist\\* }
+  - ps: "if (($env:APPVEYOR_REPO_TAG -eq 'true') -and ($env:PYTHON_VERSION -eq '3.6.x') -and ($env:PYTHON_ARCH -eq '32')) { twine upload dist\\* }"
 
