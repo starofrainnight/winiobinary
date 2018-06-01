@@ -23,7 +23,7 @@ import os.path
 
 __author__ = """Hong-She Liang"""
 __email__ = 'starofrainnight@gmail.com'
-__version__ = '0.0.4'
+__version__ = '0.0.5'
 
 
 def get_data_dir(version='3.0'):
