@@ -36,6 +36,8 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: Apache Software License',
         'Natural Language :: English',
+        'Operating System :: Microsoft :: Windows',
+        'Environment:: Win32(MS Windows)',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
