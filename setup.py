@@ -25,7 +25,7 @@ tests_requires = [
 
 setup(
     name='winiobinary',
-    version='0.0.5',
+    version='0.0.6',
     description="WinIo's binary python package that support install from pypi",
     long_description=long_description,
     author="Hong-She Liang",
